@@ -1,0 +1,26 @@
+.wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Audiowide;
+}
+
+.img-area {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-img {
+    padding: 0 20px 20px;
+    background-color: yellowgreen;
+    height: 40px;
+    width: 50px;
+}
+
+.single-img:hover{
+    opacity: .5;
+    transition: .9s;
+}
